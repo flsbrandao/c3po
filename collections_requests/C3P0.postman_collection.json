@@ -1,0 +1,152 @@
+{
+	"id": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+	"name": "C3P0",
+	"description": "",
+	"order": [],
+	"folders_order": [
+		"ae187a2f-e88f-121c-2ef7-076b938ec78c",
+		"a70385a0-f761-cc32-2417-66cce9774d93"
+	],
+	"folders": [
+		{
+			"id": "ae187a2f-e88f-121c-2ef7-076b938ec78c",
+			"name": "cities",
+			"description": "",
+			"order": [
+				"58ca6663-cfb6-959a-74ef-b0c8078db182",
+				"eb0d260d-4f17-c598-0798-f8fdfebc58fc"
+			],
+			"folders_order": [],
+			"owner": "3926135",
+			"collectionId": "5fed6818-816e-14f3-efff-3090ec06c6ff"
+		},
+		{
+			"id": "a70385a0-f761-cc32-2417-66cce9774d93",
+			"name": "customers",
+			"description": "",
+			"order": [
+				"48912ddc-4d84-e078-658d-0cb834c7ecf7",
+				"46250cf5-a964-ac4d-6112-98ad884a9039",
+				"32cd0080-9700-01a1-e71f-c5051a7ea634",
+				"a2a80844-8009-0261-c7b5-3447f28305d3"
+			],
+			"folders_order": [],
+			"owner": "3926135",
+			"collectionId": "5fed6818-816e-14f3-efff-3090ec06c6ff"
+		}
+	],
+	"owner": "3926135",
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "32cd0080-9700-01a1-e71f-c5051a7ea634",
+			"name": "Customers",
+			"description": "",
+			"collectionId": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"method": "PUT",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"nome\": \"Felipe Brandão\",\n  \"sexo\": \"M\",\n  \"data_nascimento\": \"2000-04-28\",\n  \"idade\": 21,\n  \"cidade\": 1\n}",
+			"url": "{{URL_BASE}}/customers/2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"folder": "a70385a0-f761-cc32-2417-66cce9774d93"
+		},
+		{
+			"id": "46250cf5-a964-ac4d-6112-98ad884a9039",
+			"name": "Customers",
+			"description": "",
+			"collectionId": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{URL_BASE}}/customers?id=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1"
+				}
+			],
+			"headerData": [],
+			"collection_id": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"folder": "a70385a0-f761-cc32-2417-66cce9774d93"
+		},
+		{
+			"id": "48912ddc-4d84-e078-658d-0cb834c7ecf7",
+			"name": "Customers",
+			"description": "",
+			"collectionId": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"method": "POST",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"nome\": \"Maria Lúcia\",\n  \"sexo\": \"F\",\n  \"data_nascimento\": \"1999-04-17\",\n  \"idade\": 22,\n  \"cidade\": 1\n}",
+			"url": "{{URL_BASE}}/customers",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"folder": "a70385a0-f761-cc32-2417-66cce9774d93"
+		},
+		{
+			"id": "58ca6663-cfb6-959a-74ef-b0c8078db182",
+			"name": "Cities",
+			"description": "",
+			"collectionId": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"method": "POST",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"cidade\": \"\",\n  \"estado\": \"\"\n}",
+			"url": "{{URL_BASE}}/cities",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"folder": "ae187a2f-e88f-121c-2ef7-076b938ec78c"
+		},
+		{
+			"id": "a2a80844-8009-0261-c7b5-3447f28305d3",
+			"name": "Customers",
+			"description": "",
+			"collectionId": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"method": "DELETE",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{URL_BASE}}/customers/1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"folder": "a70385a0-f761-cc32-2417-66cce9774d93"
+		},
+		{
+			"id": "eb0d260d-4f17-c598-0798-f8fdfebc58fc",
+			"name": "Cities",
+			"description": "",
+			"collectionId": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{URL_BASE}}/cities",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "5fed6818-816e-14f3-efff-3090ec06c6ff",
+			"folder": "ae187a2f-e88f-121c-2ef7-076b938ec78c"
+		}
+	]
+}
