@@ -28,7 +28,7 @@ Para startar o projeto execute:
 
 Para consumir a API, use um API Client como o _Insomnia_ ou _Postman_ ou outro de sua preferência.
  
-### Cadastro de Cidade 
+### Cadastrar Cidade 
 🟢 **POST**  - *http://localhost:3000/cities* 
 
 Deve ser enviado um objeto JSON com os atributos _cidade_ e _estado_ e os respectivos valores no formato de _string_
