@@ -1,6 +1,6 @@
 ![c3p0_icon-icons com_76936](https://user-images.githubusercontent.com/47752369/118412106-8f31de80-b66e-11eb-8fe1-32c063f11e49.png)
 # C3PO 💻
-Cumprindo o desafio da Compasso UOL, desenvolvi o C3PO  que é uma API REST de cadastro de clientes e cidades.  
+O C3PO  que é uma API REST de cadastro de clientes e cidades.  
 
 ## Como funciona? 📜
 
